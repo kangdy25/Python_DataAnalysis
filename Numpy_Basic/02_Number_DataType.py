@@ -8,7 +8,7 @@ Created on Tue May 31 14:57:14 2022
 
 import numpy as np
 
-# number type
+# number type (int, float, complex)
 a = np.array([10, 20, 30])
 a.dtype
 
@@ -25,6 +25,9 @@ b = np.array([10., 20., 30.])
 
 c = np.array([10.1, 20.1, 30.1], 'int32')
 
+# Complex Numbers
+d = np.array([10+10j, 20+20j])
+d = np.array([10, 20], 'complex')
 
 # divide by 2
 x = np.array([7, 9, 11])
